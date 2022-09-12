@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S3 L1 - JS esempio somma</title>
+</head>
+
+<body>
+  <div id="risultato"></div>
+
+  <script>
+    // --------- Input ----------
+    // Prompt restituisce sempre una stringa,
+    // usiamo Number per convertirla in un numero
+    var primoNumero = Number(prompt('Inserisci il primo numero'));
+    var secondoNumero = Number(prompt("Inserisci il secondo numero"));
+
+    // --------- Output ----------
+    document.getElementById("risultato").innerHTML = primoNumero + secondoNumero
+  </script>
+</body>
+
+</html>
